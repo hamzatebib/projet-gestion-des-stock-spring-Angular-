@@ -8,7 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 import { AddArticleComponent } from './add-article/add-article.component';
 import { AddProviderComponent } from './add-provider/add-provider.component';
-import { ListProvierComponent } from './list-provier/list-provier.component';
+
 import { ListeArticleComponent } from './liste-article/liste-article.component';
 import { UpdateArticleComponent } from './update-article/update-article.component';
 import { UpdateProviderComponent } from './update-provider/update-provider.component';
@@ -21,7 +21,7 @@ import { UpdateProviderComponent } from './update-provider/update-provider.compo
     LogoutComponent,
     AddArticleComponent,
     AddProviderComponent,
-    ListProvierComponent,
+    
     ListeArticleComponent,
     UpdateArticleComponent,
     UpdateProviderComponent
