@@ -9,6 +9,7 @@ export class ProviderService {
   //urlProviders = 'http://127.0.0.1:8087/providers';
   urlProviders = 'http://127.0.0.1:8006/providers';
   provider: any;
+ 
   username = sessionStorage.getItem('username');
   password = sessionStorage.getItem('password');
 
