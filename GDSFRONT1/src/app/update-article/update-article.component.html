@@ -1,1 +1,35 @@
-<p>update-article works!</p>
+<p>Mise à jour d'un article</p>
+
+
+
+<form (ngSubmit)="updateArticle()">
+
+    <div class="form-group">
+        <label for="articleLabel">article Name </label>
+        <input [(ngModel)] = "label"  name="articleLabel" size="20" type="text" class="form-control" id="articleLabel" />
+    </div>
+
+    <div class="form-group">
+        <label for="articlePrice">article price </label>
+        <input [(ngModel)] = "price"  name="articlePrice" size="20" type="text" class="form-control" id="articlePrice" />
+    </div>
+
+    <!--  <div class="form-group">
+        <!--  <select name="panierfournisseur" class="form-control" [(ngModel)]="valeur1" id="fournisseur" (change)="OnSelectClient($event,valeur1)"
+          >
+          <option value="0">-Select-</option>
+          <option *ngFor="let fr of this.fournisseurs" value="{{fr.nomFr}}">{{fr.nomF}}</option>
+          </select>--
+  
+          <label> providers </label>
+          <select name="articleProvider" class="form-control" id="articleProvider" (change)="changed($event)">
+            <option value="0">-Select-</option> 
+            <option *ngFor="let pr of this.providers" [value]="pr.id">
+                  {{pr.name}}
+              </option>
+          </select>
+          </div>-->
+    <input [(ngModel)]="id"  name="articleId"  type="hidden"/>
+    <button class="btn btn-primary">Mise à jour</button>
+</form>
+
